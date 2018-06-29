@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <header>
+        <div style="background-color: #e3e4e5;">
+            <div class="w">
+                <ul class="pull-left" style="margin-left: 250px !important;">
+                    <li class="location-mo">
+                        <div class="location">
+                            <i class="glyphicon glyphicon-map-marker"></i>
+                            <span>北京</span>
+                        </div>
+                        <!-- 定位下拉 -->
+                        <div class="drop-down hide">
+                            <div class="ui-areamini-content-list">
+                                <div class="item active">
+                                    <a data-id="1" href="javascript:void(0)" class="selected active-a">北京</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="2" href="javascript:void(0)">上海</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="3" href="javascript:void(0)">天津</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="4" href="javascript:void(0)">重庆</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="5" href="javascript:void(0)">河北</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="6" href="javascript:void(0)">山西</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="7" href="javascript:void(0)">河南</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="8" href="javascript:void(0)">辽宁</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="9" href="javascript:void(0)">吉林</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="10" href="javascript:void(0)">黑龙江</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="11" href="javascript:void(0)">内蒙古</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="12" href="javascript:void(0)">江苏</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="13" href="javascript:void(0)">山东</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="14" href="javascript:void(0)">安徽</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="15" href="javascript:void(0)">浙江</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="16" href="javascript:void(0)">福建</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="17" href="javascript:void(0)">湖北</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="18" href="javascript:void(0)">湖南</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="19" href="javascript:void(0)">广东</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="20" href="javascript:void(0)">广西</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="21" href="javascript:void(0)">江西</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="22" href="javascript:void(0)">四川</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="23" href="javascript:void(0)">海南</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="24" href="javascript:void(0)">贵州</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="25" href="javascript:void(0)">云南</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="26" href="javascript:void(0)">西藏</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="27" href="javascript:void(0)">陕西</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="28" href="javascript:void(0)">甘肃</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="29" href="javascript:void(0)">青海</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="30" href="javascript:void(0)">宁夏</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="31" href="javascript:void(0)">新疆</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="52993" href="javascript:void(0)">港澳</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="32" href="javascript:void(0)">台湾</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="84" href="javascript:void(0)">钓鱼岛</a>
+                                </div>
+                                <div class="item">
+                                    <a data-id="53283" href="javascript:void(0)">海外</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <div class="clearfix"></div>
+                </ul>
+
+                <ul class="header-ul">
+                    <li>
+                        <a href="">你好，请登入</a>
+                        <a href="" style="color: red !important;">免费注册</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">我的订单</a>
+                    </li>
+                    <li>|</li>
+                    <li style="position: relative;" class="location my">
+                        <div>
+                            <a href="">我的京东∨</a>
+                        </div>
+                        <div class="jingdong-down hide">
+                            <div class="dd dropdown-layer">
+                                <div class="myjdlist">
+
+                                    <div class="item-wode">
+                                        <a href="//order.jd.com/center/list.action" target="_blank">待处理订单
+                                        </a>
+                                    </div>
+                                    <div class="item-wode">
+                                        <a href="//myjd.jd.com/afs/indexNew.action?entry=1" target="_blank">返修退换货</a>
+                                    </div>
+                                    <div class="item-wode">
+                                        <a href="//t.jd.com/product/followProductList.action?isReduce=true" target="_blank">降价商品
+                                        </a>
+                                    </div>
+
+
+                                    <div class="item-wode">
+                                        <a href="//joycenter.jd.com/msgCenter/queryHistoryMessage.action" target="_blank">消息
+                                        </a>
+                                    </div>
+                                    <div class="item-wode">
+                                        <a href="http://question.jd.com/myjd/getMyjdAnswerList.action" target="_blank">我的问答
+                                        </a>
+                                    </div>
+                                    <div class="item-wode">
+                                        <a href="//t.jd.com/home/follow" target="_blank">我的关注</a>
+                                    </div>
+
+                                </div>
+                                <hr>
+                                <div class="myjdlist myjdlist_2">
+
+                                    <div class="item-wode">
+                                        <a href="//bean.jd.com/myJingBean/list" target="_blank">我的京豆</a>
+                                    </div>
+                                    <div class="item-wode baitiao">
+                                        <a href="//baitiao.jd.com" clstag="jr|keycount|njdhome|wdbaitiao" target="_blank">我的白条</a>
+                                    </div>
+
+
+                                    <div class="item-wode">
+                                        <a href="//quan.jd.com/user_quan.action" target="_blank">我的优惠券
+                                        </a>
+                                    </div>
+                                    <div class="item-wode">
+                                        <a href="//trade.jr.jd.com/centre/browse.action" target="_blank">我的理财</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">京东会员</a>
+                    </li>
+                    <li>|</li>
+                    <li style="position: relative; " class="location procurement">
+                        <div>
+                            <a href="">企业采购∨</a>
+                        </div>
+                        <div class=" procurement-down hide">
+                            <div class="">
+                                <a href="//b.jd.com" target="_blank">企业购</a>
+                            </div>
+                            <div class="">
+                                <a href="//shang.jd.com" target="_blank">商用场景馆</a>
+                            </div>
+                            <div class="">
+                                <a href="//imall.jd.com" target="_blank">工业品</a>
+                            </div>
+                            <div class="">
+                                <a href="//o.jd.com" target="_blank">礼品卡</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">客服服务∨</a>
+                    </li>
+                    <li>
+                        <a href="">网站导航</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="">手机京东</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="w" style="position: relative;">
+            <div class="logo">
+                <a href="">
+                    <img src="img/index/QQ截图20180628105132.png" alt="">
+                </a>
+
+            </div>
+
+            <div class="header">
+
+                <div class="form">
+                    <input type="text" placeholder="魅族手机" id="key">
+                    <button class="glyphicon glyphicon-search suo"></button>
+                </div>
+                <div class="Cart">
+
+                    <span class="glyphicon glyphicon-shopping-cart"> 购物车</span>
+                    <i>0</i>
+                </div>
+
+
+                <div class="clearfix"></div>
+            </div>
+
+            <!-- <div class="clearfix"></div> -->
+            <div id="hotwords">
+                <a href="//sale.jd.com/act/HihXo3yGR5c8UFvP.html" id="specHotWord" class="style-red" target="_blank" clstag="h|keycount|head|search_d01">最高减1200</a>
+                <a href="//sale.jd.com/act/ZdgkMOmVhbsaYBU.html" target="_blank" clstag="h|keycount|head|search_d02">今晚吃鸡</a>
+                <a href="//sale.jd.com/act/7pOfZtlqGys.html" target="_blank" clstag="h|keycount|head|search_d03">家具满减</a>
+                <a href="//sale.jd.com/act/t8PuvAIq7V.html" target="_blank" clstag="h|keycount|head|search_d04">9.9元秒</a>
+                <a href="//sale.jd.com/act/eyXVi0BLjSFq5T.html" target="_blank" clstag="h|keycount|head|search_d05">哥伦比亚</a>
+                <a href="//sale.jd.com/act/8F1YRy6Xb0LefSW5.html" target="_blank" clstag="h|keycount|head|search_d06">直降3000</a>
+                <a href="//sale.jd.com/act/AFqrLDanQgOoN.html" target="_blank" clstag="h|keycount|head|search_d07">纸品家清</a>
+                <a href="//sale.jd.com/act/d3jQcOWlPDB.html" target="_blank" clstag="h|keycount|head|search_d08">满100-30</a>
+                <a href="//sale.jd.com/act/hDxA7S1HFWoaXfj.html" target="_blank" clstag="h|keycount|head|search_d09">坚果零食</a>
+                <div class="clearfix"></div>
+            </div>
+            <div style="width: 100%; height: 110px;"></div>
+            <div class="nav">
+                <ul id="navitems-group1">
+                    <li class="fore1">
+                        <a target="_blank" href="//miaosha.jd.com/">秒杀</a>
+                    </li>
+                    <li class="fore2">
+                        <a target="_blank" href="//a.jd.com/">优惠券</a>
+                    </li>
+                    <li class="fore3">
+                        <a target="_blank" href="//plus.jd.com/index?flow_system=appicon&amp;flow_entrance=appicon11&amp;flow_channel=pc">PLUS会员</a>
+                    </li>
+                    <li class="fore4">
+                        <a target="_blank" href="//red.jd.com/">闪购</a>
+                    </li>
+                    <li class="fore1">
+                        <a target="_blank" href="//paimai.jd.com/">拍卖</a>
+                    </li>
+                    <li class="fore2">
+                        <a target="_blank" href="//channel.jd.com/fashion.html">京东服饰</a>
+                    </li>
+                    <li class="fore3">
+                        <a target="_blank" href="//chaoshi.jd.com/">京东超市</a>
+                    </li>
+                    <li class="fore4">
+                        <a target="_blank" href="//fresh.jd.com/">生鲜</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+
+
+    <main class="w">
+           <!-- 轮播导航栏 -->
+            <div class="containor">
+                    <div class="nav_left">
+                        <ul>
+                            <li data-id="1">
+                                <span>家用电器</span>
+                            </li>
+                            <li data-id="2">
+                                <span>手机 /运营/数码</span>
+                            </li>
+                            <li data-id="3">
+                                <span>电脑/办公</span>
+                            </li>
+                            <li data-id="4">
+                                <span>家居/家具/家装/厨具 </span>
+                            </li>
+                            <li data-id="5">
+                                <span>男装/女装/童装/内衣/ </span>
+                            </li>
+                            <li data-id="6">
+                                <span>美妆/个人清洁/宠物</span>
+                            </li>
+                            <li data-id="7">
+                                <span>女装/箱包/钟表/珠宝</span>
+                            </li>
+                            <li data-id="8">
+                                <span>男鞋/运动/户外 </span>
+                            </li>
+                            <li data-id="9">
+                                <span>房产/汽车/汽车用品/</span>
+                            </li>
+                            <li data-id="10">
+                                <span>家纺 /家饰 /鲜花 </span>
+                            </li>
+                            <li data-id="11">
+                                    <span>家居/家具/家装/厨具 </span>
+                                </li>
+                                <li data-id="12">
+                                    <span>男装/女装/童装/内衣/ </span>
+                                </li>
+                                <li data-id="13">
+                                    <span>美妆/个人清洁/宠物</span>
+                                </li>
+                                <li data-id="14">
+                                    <span>女装/箱包/钟表/珠宝</span>
+                                </li>
+                                <li data-id="15">
+                                    <span>男鞋/运动/户外 </span>
+                                </li>
+                                <li data-id="16">
+                                    <span>房产/汽车/汽车用品/</span>
+                                </li>
+                                <li data-id="17">
+                                    <span>家纺 /家饰 /鲜花 </span>
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="nav_right">
+                        <div class="sub hide" data-id="1">
+                            <div class="cate_channel">
+                                <a href="//jiadian.jd.com/" class="cate_channel_lk" clstag="h|keycount|head|category_01b01" target="_blank">家电馆
+                                    <i class="">></i>
+                                </a>
+                                <a href="//xzzmd.jd.com" class="cate_channel_lk" clstag="h|keycount|head|category_01b02" target="_blank">乡镇专卖店
+                                    <i class="">></i>
+                                </a>
+                                <a href="//sale.jd.com/act/xX0wHto8F7a2j.html" class="cate_channel_lk" clstag="h|keycount|head|category_01b03" target="_blank">家电服务
+                                    <i class="">></i>
+                                </a>
+                                <a href="//jdqc.jd.com/" class="cate_channel_lk" clstag="h|keycount|head|category_01b04" target="_blank">家电企业购
+                                    <i class="">></i>
+                                </a>
+                                <a href="//coll.jd.com/list.html?sub=21445" class="cate_channel_lk" clstag="h|keycount|head|category_01b05" target="_blank">商用电器
+                                    <i class="">></i>
+                                </a>
+                            </div>
+                            <dl>
+                                <dt>
+                                    <a>护肤品
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                </dd>
+            
+                            </dl>
+            
+                        </div>
+            
+                        <div class="sub hide" data-id="2">
+                            <div class="cate_channel">
+                                <a href="//sportsservices.jd.com/" class="cate_channel_lk" clstag="h|keycount|head|category_08b01" target="_blank">体育服务
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/yundong.html" class="cate_channel_lk" clstag="h|keycount|head|category_08b02" target="_blank">运动城
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/outdoor.html" class="cate_channel_lk" clstag="h|keycount|head|category_08b03" target="_blank">户外馆
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/1318-1463.html" class="cate_channel_lk" clstag="h|keycount|head|category_08b04" target="_blank">健身房
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/1318-12115.html" class="cate_channel_lk" clstag="h|keycount|head|category_08b05" target="_blank">骑行馆
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/watch.html" class="cate_channel_lk" clstag="h|keycount|head|category_08b06" target="_blank">钟表城
+                                    <i class="">></i>
+                                </a>
+                            </div>
+                            <dl>
+                                <dt>
+                                    <a>电脑办公
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a href="//list.jd.com/list.html?cat=9987,653,655" class="cate_detail_con_lk" target="_blank">手机</a>
+                                    <a href="//list.jd.com/list.html?tid=1006238" class="cate_detail_con_lk" target="_blank">游戏手机</a>
+                                    <a href="//list.jd.com/list.html?tid=1006340" class="cate_detail_con_lk" target="_blank">老人机</a>
+                                    <a href="//list.jd.com/list.html?cat=9987,653,659" class="cate_detail_con_lk" target="_blank">对讲机</a>
+                                    <a href="http://huishou.jd.com" class="cate_detail_con_lk" target="_blank">以旧换新</a>
+                                    <a href="//coll.jd.com/list.html?sub=41502" class="cate_detail_con_lk" target="_blank">手机维修</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a>电脑办公
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a href="//list.jd.com/list.html?cat=9987,653,655" class="cate_detail_con_lk" target="_blank">手机</a>
+                                    <a href="//list.jd.com/list.html?tid=1006238" class="cate_detail_con_lk" target="_blank">游戏手机</a>
+                                    <a href="//list.jd.com/list.html?tid=1006340" class="cate_detail_con_lk" target="_blank">老人机</a>
+                                    <a href="//list.jd.com/list.html?cat=9987,653,659" class="cate_detail_con_lk" target="_blank">对讲机</a>
+                                    <a href="http://huishou.jd.com" class="cate_detail_con_lk" target="_blank">以旧换新</a>
+                                    <a href="//coll.jd.com/list.html?sub=41502" class="cate_detail_con_lk" target="_blank">手机维修</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+            
+                        <div class="sub hide" data-id="3">
+                            <div class="cate_channel">
+                                <a href="//3c.jd.com" class="cate_channel_lk" clstag="h|keycount|head|category_03b01" target="_blank">玩3C
+                                    <i class="">></i>
+                                </a>
+                                <a href="//sale.jd.com/act/6hd0T3HtkcEmqjpM.html" class="cate_channel_lk" clstag="h|keycount|head|category_03b02" target="_blank">本周热卖
+                                    <i class="">></i>
+                                </a>
+                                <a href="//smb.jd.com" class="cate_channel_lk" clstag="h|keycount|head|category_03b03" target="_blank">企业采购
+                                    <i class="">></i>
+                                </a>
+                                <a href="//gaming.jd.com/" class="cate_channel_lk" clstag="h|keycount|head|category_03b04" target="_blank">GAME+
+                                    <i class="">></i>
+                                </a>
+                                <a href="//diy.jd.com/?cpdad=1DLSUE" class="cate_channel_lk" clstag="h|keycount|head|category_03b05" target="_blank">装机大师
+                                    <i class="">></i>
+                                </a>
+                                <a href="//jdz.jd.com" class="cate_channel_lk" clstag="h|keycount|head|category_03b06" target="_blank">私人定制
+                                    <i class="">></i>
+                                </a>
+                            </div>
+                            <dl>
+                                <dt>
+                                    <a>进口食品
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>官方直售</a>
+                                    <a>饼干</a>
+                                    <a>海苔</a>
+                                    <a>火腿肠</a>
+                                    <a>方便面</a>
+                                    <a>果冻</a>
+                                    <a>水果干</a>
+                                    <a>坚果</a>
+                                    <a>面包蛋糕</a>
+                                    <a>华夫饼</a>
+                                    <a>进口巧克力</a>
+                                    <a>进口咖啡</a>
+                                    <a>进口葡萄酒</a>
+                                    <a>啤酒饮料</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="4">
+                            <div class="cate_channel">
+                                <a href="//channel.jd.com/jiazhuang.html" class="cate_channel_lk" clstag="h|keycount|head|category_04b01"
+                                    target="_blank">家装城
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/home.html" class="cate_channel_lk" clstag="h|keycount|head|category_04b02"
+                                    target="_blank">居家日用
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/furniture.html" class="cate_channel_lk" clstag="h|keycount|head|category_04b03"
+                                    target="_blank">精品家具
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/decoration.html" class="cate_channel_lk" clstag="h|keycount|head|category_04b04"
+                                    target="_blank">家装建材
+                                    <i class="">></i>
+                                </a>
+                                <a href="//ikitchenware.jd.com/" class="cate_channel_lk" clstag="h|keycount|head|category_04b05" target="_blank">国际厨具
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/9855-9862.html" class="cate_channel_lk" clstag="h|keycount|head|category_04b06"
+                                    target="_blank">装修服务
+                                    <i class="">></i>
+                                </a>
+                            </div>
+                            <dl>
+                                <dt>
+                                    <a>母婴玩具
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>童装</a>
+                                    <a>秋换新</a>
+                                    <a>商场同款</a>
+                                    <a>特价优惠</a>
+                                    <a>秋衣秋裤</a>
+                                    <a>外套</a>
+                                    <a>羽绒服</a>
+                                    <a>夹克</a>
+                                    <a>连衣裙</a>
+                                    <a>裤子</a>
+            
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="5">
+                            <div class="cate_channel">
+                                <a href="//channel.jd.com/1315-1342.html" class="cate_channel_lk" clstag="h|keycount|head|category_05b01"
+                                    target="_blank">男装
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/1315-1343.html" class="cate_channel_lk" clstag="h|keycount|head|category_05b02"
+                                    target="_blank">女装
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/underwear.html" class="cate_channel_lk" clstag="h|keycount|head|category_05b03"
+                                    target="_blank">内衣
+                                    <i class="">></i>
+                                </a>
+                                <a href="//channel.jd.com/children.html" class="cate_channel_lk" clstag="h|keycount|head|category_05b04"
+                                    target="_blank">童装童鞋
+                                    <i class="">></i>
+                                </a>
+                                <a href="//zyfs.jd.com" class="cate_channel_lk" clstag="h|keycount|head|category_05b05" target="_blank">自营服装
+                                    <i class="">></i>
+                                </a>
+                            </div>
+                            <dl>
+                                <dt>
+                                    <a>珠宝饰品
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="6">
+                            <dl>
+                                <dt>
+                                    <a>生活电器
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>官方直售</a>
+                                    <a>生活电器</a>
+                                    <a>生活电器</a>
+                                    <a>吹风机</a>
+                                    <a>精华液</a>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                    <a>官方直售</a>
+                                    <a>面膜</a>
+                                    <a>护肤套装</a>
+                                    <a>乳液面霜</a>
+                                    <a>精华液</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="7">
+                            <dl>
+                                <dt>
+                                    <a>厨具
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>厨具</a>
+                                    <a>厨具</a>
+                                    <a>油烟机</a>
+                                    <a>洗碗机</a>
+                                    <a>电磁炉</a>
+                                    <a>微波炉</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="8">
+                            <dl>
+                                <dt>
+                                    <a>汽车
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                    <a>汽车</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="9">
+                            <dl>
+                                <dt>
+                                    <a>生鲜水果
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>火龙果</a>
+                                    <a>苹果</a>
+                                    <a>榴莲</a>
+                                    <a>进口水果</a>
+                                    <a>优惠活动</a>
+                                    <a>雪梨</a>
+                                    <a>山竹</a>
+                                    <a>葡萄</a>
+                                    <a>泰国芒果</a>
+                                    <a>柚子</a>
+                                    <a>马蹄</a>
+                                    <a>橘子</a>
+                                    <a>香蕉</a>
+                                    <a>猕猴桃</a>
+                                    <a>椰子</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="10">
+                            <dl>
+                                <dt>
+                                    <a>当季热卖
+                                        <i> &gt;</i>
+                                    </a>
+                                </dt>
+                                <dd>
+                                    <a>定制窗帘</a>
+                                    <a>抱枕</a>
+                                    <a>被子</a>
+                                    <a>两用坐垫</a>
+                                    <a>国际家纺床品</a>
+                                    <a>国际居家布艺</a>
+                                    <a>国际家居饰品</a>
+                                </dd>
+                            </dl>
+            
+                        </div>
+                        <div class="sub hide" data-id="11">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="sub hide" data-id="12">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="sub hide" data-id="13">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="sub hide" data-id="14">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="sub hide" data-id="15">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="sub hide" data-id="16">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="sub hide" data-id="17">
+                                <dl>
+                                    <dt>
+                                        <a>当季热卖
+                                            <i> &gt;</i>
+                                        </a>
+                                    </dt>
+                                    <dd>
+                                        <a>定制窗帘</a>
+                                        <a>抱枕</a>
+                                        <a>被子</a>
+                                        <a>两用坐垫</a>
+                                        <a>国际家纺床品</a>
+                                        <a>国际居家布艺</a>
+                                        <a>国际家居饰品</a>
+                                    </dd>
+                                </dl>
+                
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+        <!-- 轮播图 -->
+       
+
+    
+    </main>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/jquery.js"></script>
+    <script>
+        $(".location-mo").hover(function () {
+            $(".drop-down").removeClass("hide");
+            $(".location-mo").attr("style", "background-color: white;")
+        }, function () {
+            $(".drop-down").addClass("hide");
+            $(".location-mo").attr("style", "background-color: ;")
+        })
+
+        $(".my").hover(function () {
+            $(".jingdong-down").removeClass("hide");
+        }, function () {
+            $(".jingdong-down").addClass("hide");
+        })
+
+        $(".procurement").hover(function () {
+            $(".procurement-down").removeClass("hide");
+        }, function () {
+            $(".procurement-down").addClass("hide");
+        })
+
+        $(".item").click(function () {
+            $(this).addClass("active").siblings().removeClass("active");
+            $(".item>a").removeClass("active-a");
+            $(this).find("a").addClass("active-a");
+        })
+
+        // 滚动导航栏
+        $(function () {
+            $('.containor').on('mouseenter', function () {
+                $(".nav_right").removeClass('hide');
+            }).on('mouseleave', function () {
+                $(".nav_right").addClass('hide');
+                $(".sub").addClass('hide');
+            }).on('mouseenter', 'li', function (e) {
+                var li_data = $(this).attr('data-id');
+                // console.log(li_data)
+                $(".sub").addClass('hide');
+                $('.sub[data-id="' + li_data + '"]').removeClass('hide');
+            })
+        })
+    </script>
+
+
+</body>
+
+</html>

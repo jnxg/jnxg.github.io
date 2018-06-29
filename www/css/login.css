@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+a,span{
+    color: gray;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    border: none !important;
+}
+.container{
+    width: 950px;
+}
+header{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header>b{
+    display: inline-block;
+    background-image: url(../img/login/l-icon.png);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 190px;
+}
+header>a>b{
+    display: inline-block;
+    background-image: url(../img/login/q-icon.png);
+    width: 18PX;
+    height: 14px;
+    vertical-align:  middle;
+   
+}
+.wenjuan{
+    float: right;
+    margin-top: 40px;
+}
+.anquang{
+    background: #fff8f0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Login{
+    width: 346px;
+    background-color: #fff;
+    float: right;
+
+}
+.login-wrap {
+    position: relative;
+    height: 475px;
+    z-index: 5;
+}
+.login-wrap .login-banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 475px;
+    background: #e93854;
+}
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+.i-inner{
+    background-image: url(../img/login/5aa68632Nd7790d0c.png);
+    height: 475px;
+}
+.login-form {
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    overflow: visible;
+    width: 346px;
+    float: right;
+    margin-top: 10px;
+}
+.login-kuang{
+    display: block;
+    justify-content: space-between;
+    width: 99%;
+    height: 58px;
+    font-size: 18px;
+    color: gray;
+    border-bottom: 1px solid #dbdada;
+    line-height: 58px;
+
+
+}
+.login-kuang a:active{
+    outline: 6px none rgb(109, 109, 109);
+}
+.login-kuang>a:hover{
+    font-weight: 800;
+    color: #e4393c;
+    text-decoration: none;
+}
+.hong{
+    color: #e4393c !important;
+    font-weight: 800;
+}
+form,
+.way{
+    width: 80%;
+    margin: auto;
+}
+.input-group-addon{
+    border-radius:0; 
+}
+.glyphicon{
+    top: 0;
+}
+.form-control{
+    outline: none !important;
+    box-shadow:none;
+    height: 38px;
+    border-radius:0; 
+    border: 1px solid #bdbdbd;
+}
+.input-group{
+    height: 38px;
+    margin:30px 0 0 0;
+}
+#deng{
+    width: 100%;
+    border-radius:0;
+     background-color: #e4393c;
+     color: white;
+     font-size: 20px;
+     height: 33px;
+     margin: 20px 0 20px 0;
+     line-height: 20px;
+}
+.input-group-addon{
+    color: #d4d4d4;
+}
+#QQ>i{
+    background-image: url(../img/login/QQ-weixin.png);
+    display:inline-block;
+    width: 19px;
+    height: 18px;
+    vertical-align:  middle;
+}
+.Way{
+    height: 50px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #f4f4f4;
+    line-height: 50px;
+}
+#WeChat>i{
+    background-image: url(../img/login/QQ-weixin.png);
+    background-position: -20px 0 ;
+    display:inline-block;
+    width: 19px;
+    height: 18px;
+    vertical-align:  middle;
+}
+#book{
+    float: right;
+}
+#book>i{
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/login/pwd-icons-new.png)-104px -75px no-repeat;
+    vertical-align:  middle;
+}
+#book>span{
+    color: #e4393c;
+}
+footer{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+footer a{
+    margin: 0 10px;
+    color: #666;
+    font-size: 12px;
+}
+.hide{
+    display: none;
+}
+.Qr>img{
+   
+    margin: 10px 0;
+     border: 1px solid #e0dddd;
+     padding: 5px;
+     display: inline-block;
+}
+.QR{
+    position: relative;
+}
+.QR>.Qr{
+    position: absolute;
+    left: 55px;
+    margin-top: 20px;
+    transition:0.5s
+}
+.sao{
+    position: absolute;
+    right: -28px;
+    top: 26px;
+    display: inline-block;
+    width: 141px;
+    height: 168px;
+    background: url(../img/login/phone-orange.png) no-repeat;
+    z-index: 99;
+}
+#shu>i,
+#shu1>i,
+#shu2>i{
+    display: inline-block;
+    background-image: url(../img/login/qr-coagent.png);
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#shu1>i{
+    background-position: -27px;
+}
+#shu2>i{
+    background-position: -54px;
+}

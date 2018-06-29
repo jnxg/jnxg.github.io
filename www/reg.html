@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>个人注册</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="" class="pull-left">
+                <img style="width: 160px;height: 50px; margin-top: 15px;" src="img/login/logo-201305-b.png" alt="">
+            </a>
+            <div class="pull-left logo-title">欢迎注册</div>
+            <div class="wenjuan se">
+                已有账户？
+                <a href="../www/login.html" class="hong">请登录></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <!-- 主体 -->
+    <main class="">
+        <ul>
+            <li>
+                <span>1</span>
+                <p>验证手机号码</p>
+            </li>
+            <li>
+                <span></span>
+            </li>
+
+            <li>
+                <span>2</span>
+                <p>填写账号信息</p>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span>3</span>
+                <p>注册成功</p>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+        <form >
+            <label for="" class="China">中国 0086 ∨</label>
+            <input type="text" class="tel" name="tel" required="required" placeholder="　　建议使用常用手机">
+            <span class="vis" id="tel-hide" style="font-size: 12px;color: #999;">
+                <i class="ii"></i>
+
+                验证完成后，你可以使用该手机登录或找回密码　　　　　　　
+            </span>
+            <label for="" class="China verify">手机验证</label>
+            <input type="text" class="tel verify-l" required="required" name="code"; pattern="[a-zA-Z0-9]{4}$" placeholder="　　输入验证码">
+            <button class="verify-b yanzhengma" type="button" disabled="disabled" >获取验证码</button>
+            <div class="pull-right" style="font-size: 12px;">
+                收不到短信验证码？点击
+                <a href="">获取语音验证码　</a>
+            </div>
+            <button type="submit" class="btn " id="deng">下一步</button>
+        </form>
+        <div class="Z">
+            <a href="" id="zhuce">
+                <i></i>
+                <span>企业用户注册</span>
+            </a>
+            <a href="" id="gzhuce" class="pull-right">
+                <i></i>
+                <span>国际站注册</span>
+            </a>
+        </div>
+    </main>
+
+    <!-- 填写资料 -->
+    <main class="hide">
+        <ul class="tian">
+            <li>
+                <span></span>
+                <p>验证手机号码</p>
+            </li>
+            <li>
+                <span></span>
+            </li>
+
+            <li>
+                <span style="color: white;">2</span>
+                <p style="color: #3b4;">填写账号信息</p>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span>3</span>
+                <p>注册成功</p>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+        <form class="form2">
+            <div>
+                <label for="" class="China verify1">用　户　名</label>
+                <input type="text" class="tel user" name="user" required="required" pattern="[\u4E00-\u9FA5a-zA-Z0-9_-]{4,20}$" placeholder="　　您的账户名和登录名">
+                <span class="vis" id="user-hide">
+                    <i class="ii"></i>
+                    支持中文，英文，数字，“-”,"_"的组成，4-20字符
+                </span>
+            </div>
+
+            <div>
+                <label for="" class="China verify1">设 置 密 码</label>
+                <input type="password" class="tel user" id="Password"  required="required" pattern="[a-zA-Z0-9_-]{6,20}$" placeholder="　　建议使用两种或两种以上字符组合">
+                <span class="vis" id="Password-hide">
+                    <i class="ii"></i>
+                    建议使用字母、数字和符号两种及以上的组合，6-20个字符
+                </span>
+            </div>
+
+            <div>
+                <label for="" class="China verify1">确 定 密 码</label>
+                <input type="password" class="tel user" name="password" required="required" pattern="[a-zA-Z0-9_-]{6,20}$" placeholder="　　请再次输入密码">
+                <span class="vis" id="password-hide">
+                    <i class="ii"></i>
+                    请再次输入密码
+                </span>
+            </div>
+            <div>
+                <label for="" class="China verify1">邮 箱 验 证</label>
+                <input type="email" class="tel user" name="email" required="required" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"
+                    placeholder="　　请输入邮箱">
+                <span class="vis" id="email-hide">
+                    <i class="ii"></i>
+                    验证完成后，你可以使用该邮箱登录!
+                </span>
+            </div>
+            <!-- <div>
+                <label for="" class="China verify1">邮箱验证码</label>
+                <input type="text" class="tel verify-l" required="required" pattern="[a-zA-Z0-9]{4}$" placeholder="　　请输入邮箱验证码">
+                <button class="verify-b">获取验证码</button>
+            </div> -->
+            <button type="submit" class="btn " id="deng">下一步</button>
+        </form>
+        <div class="Z">
+            <a href="" id="zhuce">
+                <i></i>
+                <span>企业用户注册</span>
+            </a>
+            <a href="" id="gzhuce" class="pull-right">
+                <i></i>
+                <span>国际站注册</span>
+            </a>
+        </div>
+    </main>
+
+
+    <!-- 注册成功 -->
+    <div style="width: 30%; margin: auto; text-align:center; "  class="hide" id="Succeed">
+        <i class="succeed "></i>
+        <h2>hahaha</h2>
+        <span>您已成功注册为京东用户，祝您购物愉快~</span>
+        <br>
+        <button type="button" class="btn " id="gouwu" >去购物</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 友情链接 -->
+    <div style="height: 100px;"></div>
+    <footer>
+        <div class="links">
+            <a rel="nofollow" target="_blank" href="//www.jd.com/intro/about.aspx">
+                关于我们
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//www.jd.com/contact/">
+                联系我们
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//zhaopin.jd.com/">
+                人才招聘
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//www.jd.com/contact/joinin.aspx">
+                商家入驻
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//www.jd.com/intro/service.aspx">
+                广告服务
+            </a>
+            |
+            <a rel="nofollow" target="_blank" href="//app.jd.com/">
+                手机京东
+            </a>
+            |
+            <a target="_blank" href="//club.jd.com/links.aspx">
+                友情链接
+            </a>
+            |
+            <a target="_blank" href="//media.jd.com/">
+                销售联盟
+            </a>
+            |
+            <a href="//club.jd.com/" target="_blank">
+                京东社区
+            </a>
+            |
+            <a href="//gongyi.jd.com" target="_blank">
+                京东公益
+            </a>
+            |
+            <a target="_blank" href="//en.jd.com/" clstag="pageclick|keycount|20150112ABD|9">English Site</a>
+        </div>
+        <!-- <br> -->
+        <div style="margin-top: 5px; font-size: 12px; color: #999 ;">
+            <span>Copyright © 2004-2018 京东JD.com 版权所有 </span>
+        </div>
+    </footer>
+
+    <script src="bootstrap/js/jquery.js"></script>
+    <script>
+        $("[name=user]").focus(function () {
+            $("#user-hide").removeClass("vis");
+        })
+        $("[name=user]").blur(function () {
+            $("#user-hide").addClass("vis");
+
+        });
+        $("[name=password]").focus(function () {
+            $("#password-hide").removeClass("vis");
+        });
+        $("[name=password]").blur(function () {
+            $("#password-hide").addClass("vis");
+        });
+        $("#Password").focus(function () {
+            $("#Password-hide").removeClass("vis");
+        });
+        $("#Password").blur(function () {
+            $("#Password-hide").addClass("vis");
+        });
+        $("[name=email]").focus(function () {
+            $("#email-hide").removeClass("vis");
+        });
+        $("[name=email]").blur(function () {
+            $("#email-hide").addClass("vis");
+        });
+        $("[name=tel]").focus(function () {
+            $("#tel-hide").removeClass("vis");
+        });
+        $("[name=tel]").blur(function () {
+            $("#tel-hide").addClass("vis");
+        });
+        
+
+        $(".tel").on("input", function() {
+            // 正则  
+            var re = /^1[34578][0-9]{9}$/;
+            // console.log(this.value);
+            // disabled  true 禁用   false
+            $(".yanzhengma").attr("disabled", !re.test(this.value));
+        });
+
+        $(".verify-b").click(function () {
+            var t = 59;
+            $(".yanzhengma").text(t + "秒");
+            // 禁用按钮
+            $(".yanzhengma").attr("disabled", true);
+            // 设置定时器
+            var interval = setInterval(function () {
+                t--;
+                // console.log(this);//window
+                $(".yanzhengma").text(t + "秒");
+                if (t == 0) {
+                    // 清除定时器
+                    clearInterval(interval);
+                    // 启用按钮
+                    $(".yanzhengma").attr("disabled", false);
+                    $(".yanzhengma").text("获取验证码");
+                }
+            }, 1000);
+
+            
+            // 发送验证码
+            $.ajax({
+                url: "/setcode",
+                data: {
+                    tel: $("[name=tel]").val(),
+                    code: code
+                },
+                dataType: "json",
+                success: function(data) {
+                    console.log(data);
+                },
+                // error: function() {
+                //     // console.log(arguments);
+                // }
+            });
+            console.log(code)
+        });
+        var code = getCode();
+        $("form").eq(0).submit(function(e) {
+            // 阻止表单提交
+            e.preventDefault();
+            // toLowerCase转换成小写
+            if ($("[name=code]").val().toLowerCase() == code.toLowerCase()) {
+                alert("验证码验证成功");
+                $("main").eq(0).addClass("hide");
+                $("main").eq(1).removeClass("hide");
+            } else {
+                alert("验证码验证失败");
+            }
+        });
+        // 生成验证码、
+        function getCode() {
+            var str = "1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+            // 将其切割成数组（split），在乱序（sort）  ，
+            // 打乱顺序后截取前4个值（slice），再拼接成字符串（join）
+            return str.split("").sort(function() {
+                return Math.random() - 0.5;
+            }).slice(0, 4).join("");
+        }
+
+
+        // 填写资料
+        $(".form2").submit(function(e) {
+            e.preventDefault();
+        $.post({
+            url: "/register",
+            data: $(this).serialize(),
+            success: function(data) {
+                alert("注册成功");
+                $("main").eq(1).addClass("hide");
+                $("#Succeed").removeClass("hide");
+
+            }
+        });
+
+    });
+    </script>
+</body>
+
+</html>
