@@ -12,7 +12,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "祝您观影愉快🎬",
+            "name": "尊贵vip会员🎬",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
