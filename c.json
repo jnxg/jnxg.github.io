@@ -1,0 +1,270 @@
+{
+    "spider": "https://raw.gitcode.com/suixin00/0/blobs/21593f5d9b2106dffeccd206aa42a9b9138f2fb3/SX.png",
+    "spider": "http://1.94.31.214/api/dgbb/new.jar",
+    "lives": [
+        {
+            "name": "(四网通用)",
+            "type": 0,
+            "url": "https://gitee.com/flashing-idle-and-tinkering/live-streaming-for-customers/raw/master/hzgkzhibo.json",
+            "playerType": 1
+        }
+    ],
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "祝您观影愉快🎬",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "戏曲多多",
+            "name": "戏曲｜多多",
+            "type": 3,
+            "api": "csp_AppLY",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "电台直播",
+            "name": "📻电台丨直播",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/蜻蜓FM.js"
+        },
+        {
+            "key": "DG音乐仓",
+            "name": "🎵音乐仓🎵",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "json": "http://1.94.31.214/api/dgbb/music/ych.json",
+                "cookie": "http://1.94.31.214/api/dgbb/cookie.txt"
+            }
+        },
+        {
+            "key": "企鹅",
+            "name": "🔥💥腾腾|4K①",
+            "type": 3,
+            "api": "https://raw.gitcode.com/suixin00/0/blobs/798765a16ab2ec749177b28854d0fcb8fabc91e2/0.js",
+            "ext": "http://china77.hongdus.com/qq.txt"
+        },
+        {
+            "key": "爱营",
+            "name": "💖💥爱｜4K线路",
+            "type": 3,
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tomorrow/refs/heads/master/JS/AppGet.js",
+            "ext": {
+                "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt",
+                "key": "nzEqOgYk3QzHuEP8",
+                "init": "V122",
+                "api": 2,
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "枫叶影视",
+            "name": "🔥💥麦叶┃4K",
+            "type": 3,
+            "api": "csp_FengYe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://www.vip1949.com/",
+            "jar": "http://47.120.41.246:8025/vip/jar/xiaomi.php"
+        },
+        {
+            "key": "CO4K",
+            "name": "🔥💥速播|4K",
+            "type": 4,
+            "api": "http://8.134.205.252:39466/pz/co4k.php/api.php/provide/vod/?ac=list"
+        },
+        {
+            "key": "星河",
+            "name": "🔥💥星河|4K",
+            "type": 3,
+            "playerType": 2,
+            "jar": "https://raw.gitcode.com/suixin00/0/blobs/6680822263bf9b05740eeeaaeb165633d381379f/XM.jar",
+            "api": "csp_AppGet",
+            "ext": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt|kj37zs29q22jk96t|V122|okhttp/3.10.0"
+        },
+        {
+            "key": "bubutv",
+            "name": "🔥💥步步4k",
+            "type": 3,
+            "api": "http://xn--oev29b.top/files/js/4k.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🔥💥咕噜",
+            "name": "🔥💥咕噜|4K",
+            "type": 4,
+            "api": "http://211.101.247.26:99/proxy.php?code=9999&target=f5eb11c746869fd90c06"
+        },
+        {
+            "key": "mogg",
+            "name": "木偶|4K",
+            "type": 3,
+            "jar": "https://gitee.com/Ye-11X115490/PsyDuck/raw/master/lib/PsyDuck-wp.jar",
+            "api": "csp_ZC4K",
+            "ext": "YUhSMGNEb3ZMekUyTUM0eU1ESXVNak00TGpNNU9qTTNNekU1TDJGd2FTNXdhSEEvYzJsMFpUMXRiMmRuSXlNamJXOW5adz09"
+        },
+        {
+            "name": "豪堪｜短剧",
+            "key": "豪堪｜短剧",
+            "type": 3,
+            "api": "csp_HHkkAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://d.kstore.dev/download/17135/自用/bfdb--cvdvds.jar"
+        },
+        {
+            "name": "围观｜短剧",
+            "key": "围观｜短剧",
+            "type": 3,
+            "api": "csp_WgdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://d.kstore.dev/download/17135/自用/bfdb--cvdvds.jar"
+        },
+        {
+            "name": "围观｜短剧",
+            "key": "围观｜短剧",
+            "type": 3,
+            "api": "csp_WgdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://d.kstore.dev/download/17135/自用/bfdb--cvdvds.jar"
+        },
+        {
+            "name": "拜拜｜短剧",
+            "key": "拜拜｜短剧",
+            "type": 3,
+            "api": "csp_BddjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://d.kstore.dev/download/17135/自用/bfdb--cvdvds.jar"
+        },
+        {
+            "name": "喵喵｜短剧",
+            "key": "喵喵｜短剧",
+            "type": 3,
+            "api": "csp_QmdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://d.kstore.dev/download/17135/自用/bfdb--cvdvds.jar"
+        },
+        {
+            "name": "星星｜短剧",
+            "key": "星星｜短剧",
+            "type": 3,
+            "api": "csp_XydjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "https://d.kstore.dev/download/17135/自用/bfdb--cvdvds.jar"
+        },
+        {
+            "key": "枫叶",
+            "name": "🔥💥枫麦|4K",
+            "type": 3,
+            "playerType": 2,
+            "api": "http://china77.hongdus.com/FY.js"
+        },
+        {
+            "key": "4K影院",
+            "name": "🔥💥麦影|4K",
+            "type": 3,
+            "playerType": 2,
+            "jar": "https://raw.gitcode.com/suixin00/0/blobs/6680822263bf9b05740eeeaaeb165633d381379f/XM.jar",
+            "api": "csp_AppGet",
+            "ext": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/603.txt|FTgP4Gq8zPiqbt7M|V122|okhttp/3.10.0"
+        },
+        {
+            "key": "爱影视",
+            "name": "爱♥|4K",
+            "type": 3,
+            "playerType": 2,
+            "jar": "https://raw.gitcode.com/suixin00/0/blobs/6680822263bf9b05740eeeaaeb165633d381379f/XM.jar",
+            "api": "csp_AppGet",
+            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q23.txt|nzEqOgYk3QzHuEP8|V122|okhttp/3.10.0"
+        },
+        {
+            "key": "小胡",
+            "name": "🔥┃小胡┃4K",
+            "type": 1,
+            "playerType": 1,
+            "api": "http://xh1.xn--yetu07f.icu/api.php/provide/vod/",
+            "jar": "http://xiaohu.xzam.cn/jar/1.jar"
+        },
+        {
+            "key": "csp_Mp4Mov",
+            "name": "🧲┃Mp4┃4k",
+            "type": 3,
+            "api": "csp_Mp4Mov",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://agit.ai/guot54/ygbh/raw/branch/master/JAR/83.jar"
+        },
+        {
+            "key": "csp_SeedHub",
+            "name": "🧲┃SeedHub┃4k",
+            "type": 3,
+            "api": "csp_SeedHub",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://agit.ai/guot54/ygbh/raw/branch/master/JAR/83.jar"
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃┃南瓜┃App",
+            "type": 3,
+            "api": "csp_NanGua",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "萌米",
+            "name": "👀┃萌米┃App",
+            "type": 3,
+            "api": "csp_AppMao",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjKZ1gO+9u81wMIxzHg+7x1Oep4CIFuZAlCy8a4qCgjGLacnxDo6wiBr66jP3X8J2mRx31u1XgkTTVrENVjfhQKUN2Yi12XNWQSlmVZxLtiSaSiZG0xf1Hw"
+        },
+        {
+            "key": "繁星",
+            "name": "💥┃繁星┃App",
+            "type": 3,
+            "api": "csp_AppMao",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
+        }
+    ]
+}
